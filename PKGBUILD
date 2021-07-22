@@ -6,7 +6,7 @@ pkgver=6.0.r56.g8b2a776
 pkgrel=1
 pkgdesc='Run commands as super user or another user'
 arch=(x86_64 i686)
-url='https://github.com/Duncaen/OpenDoas'
+url='https://github.com/marnixah/OpenDoas'
 license=(custom:ISC)
 depends=(pam)
 provides=(opendoas)
@@ -14,7 +14,7 @@ conflicts=(opendoas)
 makedepends=(git)
 install=opendoas.install
 source=(
-	'opendoas::git+https://github.com/Duncaen/OpenDoas.git'
+	'opendoas::git+https://github.com/marnixah/OpenDoas.git'
 )
 sha256sums=(SKIP)
 
